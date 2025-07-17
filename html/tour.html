@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplos de display</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      border-bottom: 2px solid #ccc;
+    }
+
+    .box {
+      background-color: #3498db;
+      color: white;
+      padding: 10px;
+      margin: 5px;
+    }
+
+    /* 1. Block */
+    .block-example div {
+      display: block;
+    }
+
+    /* 2. Inline */
+    .inline-example span {
+      display: inline;
+      background-color: #e67e22;
+      color: white;
+      padding: 5px;
+    }
+
+    /* 3. Inline-block */
+    .inline-block-example div {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-color: #2ecc71;
+      text-align: center;
+      line-height: 100px;
+      margin-right: 10px;
+    }
+
+    /* 4. None */
+    .none-example .invisivel {
+      display: none;
+    }
+
+    /* 5. Flex */
+    .flex-example {
+      display: flex;
+      gap: 10px;
+      justify-content: right;
+      max-width: 100%;
+    }
+
+    .flex-example div {
+      background-color: #9b59b6;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      line-height: 100px;
+
+    }
+
+    /* 6. Grid */
+    .grid-example {
+      display: grid;
+      grid-template-columns: 12px 1fr 1fr 1fr;
+      gap: 10px;
+    }
+
+    .grid-example div {
+      background-color: #1abc9c;
+      height: 100px;
+      text-align: center;
+      line-height: 100px;
+    }
+
+    /* 7. Table */
+    .table-example {
+      display: table;
+      width: 100%;
+    }
+
+    .table-row {
+      display: table-row;
+    }
+
+    .table-cell {
+      display: table-cell;
+      width: 50px;
+      height: 50px;
+      background-color: #e67e22;
+      border: 1px solid white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Exemplos da Propriedade <code>display</code> no CSS</h1>
+
+  <!-- BLOCK -->
+  <h2>display: block</h2>
+  <div class="block-example">
+    <div class="box">Bloco 1</div>
+    <div class="box">Bloco 2</div>
+  </div>
+
+  <!-- INLINE -->
+  <h2>display: inline</h2>
+  <div class="inline-example">
+    <span>Texto A</span>
+    <span>Texto B</span>
+    <span>Texto C</span>
+  </div>
+
+  <!-- INLINE-BLOCK -->
+  <h2>display: inline-block</h2>
+  <div class="inline-block-example">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+
+  <!-- NONE -->
+  <h2>display: none</h2>
+  <div class="none-example">
+    <p>Visível</p>
+    <p class="invisivel">Invisível (com display: none)</p>
+    <p>Também visível</p>
+  </div>
+
+  <!-- FLEX -->
+  <h2>display: flex</h2>
+  <div class="flex-example">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+
+  <!-- GRID -->
+  <h2>display: grid</h2>
+  <div class="grid-example">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+  </div>
+
+  <!-- TABLE -->
+  <h2>display: table</h2>
+  <div class="table-example">
+    <div class="table-row">
+      <div class="table-cell">Linha 1 - Célula 1</div>
+      <div class="table-cell">Linha 1 - Célula 2</div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell">Linha 2 - Célula 1</div>
+      <div class="table-cell">Linha 2 - Célula 2</div>
+    </div>
+  </div>
+  
+
+
+
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/h_FMGF8PqUA" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+</body>
+
+</html>
