@@ -81,6 +81,59 @@ h5 {
     text-align: center;
 }
 
+.title {
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.membro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 2fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.membro {
+  background-color: #1B2A38;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  text-align: center;
+  transform: scale(0.80);
+}
+
+.membro:hover {
+  transform: scale(0.95);
+}
+
+.membro img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 600px;
+}
+
+.membro h2 {
+  margin-top: 15px;
+  font-size: 25PX;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.membro p {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 5px;
+}
+
+.membro-antigo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
 .socialmedia {
     display: flex;
     justify-content: center;
