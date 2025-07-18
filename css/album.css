@@ -166,9 +166,9 @@
       margin-right: auto;
   }
 
-  .text-img video {
+  .text-img iframe {
       width: 750px;
-      height: auto;
+      height: 425px;
       border: 2px solid #FFFFFF;
       border-radius: 6px;
       display: block;
