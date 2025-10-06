@@ -21,3 +21,4 @@
 - /html: pasta onde estão os arquivos HTML utilizados;
 - /img: pasta onde estão todas as imagens utilizadas no website.
 
+
