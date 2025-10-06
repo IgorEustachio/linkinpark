@@ -11,7 +11,8 @@
 
 - HTML: linguagem de marcação responsável pela estrutura básica do website;
 - CSS: linguagem de estilo responsável por melhorar a estética do website;
-- Chatvolt: ferramenta de criação de agentes de IA, utilizada para integrar uma chat bubble no website.
+- Chatvolt: ferramenta de criação de agentes de IA, utilizada para integrar uma chat bubble no website;
+- Python: utilizei o Flask para criar uma tela de cadastro/login.
 
 ---
 
@@ -19,6 +20,6 @@
 
 - /css: pasta onde estão os arquivos CSS utilizados;
 - /html: pasta onde estão os arquivos HTML utilizados;
-- /img: pasta onde estão todas as imagens utilizadas no website.
-
+- /img: pasta onde estão todas as imagens utilizadas no website;
+- /python: pasta onde está tudo relacionado a tela de cadastro/login.
 
